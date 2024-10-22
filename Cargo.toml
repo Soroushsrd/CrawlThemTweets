@@ -1,0 +1,13 @@
+[package]
+name = "crawltwitter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = {version = "1.41.0", features = ["full"]}
+reqwest = "0.12.8"
+serde = { version = "1.0.211", features = ["derive"] }
+time = "0.3.36"
+playwright = "0.0.20"
+log = "0.4.22"
+anyhow = "1.0.90"
